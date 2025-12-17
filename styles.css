@@ -678,7 +678,7 @@ a{color:inherit; text-decoration:none}
   transform: translateY(-6px) scale(1.01);
 }
 .funBtn--resume:hover::after{
-  content:"OPEN MY RESUME PDF →";
+  content:"";
   position:absolute;
   left:50%;
   top:-14px;
@@ -913,3 +913,4 @@ body.tripMode .photoMain{
 @media (max-width: 780px){
   .contactGrid{grid-template-columns: 1fr;}
 }
+

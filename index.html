@@ -1,0 +1,804 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sanjith • Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body class="theme-blue">
+
+  <header class="nav">
+    <div class="nav__inner">
+      <div class="brand">SAGA<span class="dot">.</span></div>
+
+      <nav class="nav__links">
+        <a href="#about">ABOUT</a>
+        <a href="#experience">EXPERIENCE</a>
+        <a href="#projects">PROJECTS</a>
+        <a href="#skills">SKILLS</a>
+        <a href="#contact">CONTACT</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <!-- ===================== ABOUT ===================== -->
+    <section id="about" class="aboutGrid">
+
+      <!-- LEFT: ABOUT CARD -->
+      <article class="card card--primary">
+        <div class="card__title">
+          <span class="iconCircle">👤</span>
+          <h2 class="hPixel">ABOUT ME</h2>
+        </div>
+
+        <div class="divider"></div>
+
+        <p class="bodyText">
+          I’m Sanjith Ganesh! A Data Science graduate student (Rutgers MSDS, Statistics track) who enjoys building end-to-end,
+          real-world data products and trippy websites. I work across analytics, automation, and applied ML right from creating clean dashboards and
+          decision-ready reporting to pipelines that move data reliably, and models that turn messy text into useful insights.
+        </p>
+
+        <p class="bodyText" style="margin-top:14px;">
+          I’m comfortable taking projects from “idea → prototype → demo → legendary😎”.
+        </p>
+
+        <p class="bodyText" style="margin-top:14px;">
+          Outside academics and internships, I’m deeply passionate about music! 😍 I’m a professional beatboxer and self-made music producer.
+          I’ve competed in 50+ national and state-level competitions, released solo content online, and led/organized large cultural events
+          where creativity and execution mattered equally.
+        </p>
+      </article>
+
+      <!-- RIGHT: IMAGE CARD -->
+      <article class="card card--image">
+        <div class="photoWrap">
+          <div class="photoBg" style="background-image:url('assets/sanjith.jpeg');"></div>
+          <div class="photoShade"></div>
+
+          <img class="photoMain" src="assets/sanjith.jpeg" alt="Sanjith" />
+
+          <!-- FLOATING EMOJIS (20) -->
+          <div class="floatLayer" aria-hidden="true">
+            <span class="floater f1">🎤</span>
+            <span class="floater f2">🎧</span>
+            <span class="floater f3">🎵</span>
+            <span class="floater f4">🎶</span>
+            <span class="floater f5">🧠</span>
+            <span class="floater f6">📊</span>
+            <span class="floater f7">🐍</span>
+            <span class="floater f8">🤖</span>
+            <span class="floater f9">⚙️</span>
+            <span class="floater f10">🧩</span>
+            <span class="floater f11">☁️</span>
+            <span class="floater f12">⚡</span>
+            <span class="floater f13">🧪</span>
+            <span class="floater f14">📈</span>
+            <span class="floater f15">🔧</span>
+            <span class="floater f16">🗂️</span>
+            <span class="floater f17">🧬</span>
+            <span class="floater f18">🛰️</span>
+            <span class="floater f19">✨</span>
+            <span class="floater f20">💡</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- STATS -->
+      <article class="stat">
+        <div class="stat__big">1.5+</div>
+        <div class="stat__small">YEARS EXP</div>
+      </article>
+
+      <article class="stat">
+        <div class="stat__big">10+</div>
+        <div class="stat__small">PROJECTS</div>
+      </article>
+
+    </section>
+
+
+    <!-- ===================== EXPERIENCE ===================== -->
+    <section id="experience" class="section">
+      <h2 class="hPixel hPixel--xl sectionTitle">EXPERIENCE</h2>
+
+      <div class="experienceGrid">
+
+        <!-- 1) CSC -->
+        <article class="xpCard">
+          <div class="xpTop">
+            <div class="xpLogo">
+              <img class="xpLogo__img" src="assets/csc.png" alt="CSC Global logo">
+            </div>
+
+            <div class="xpHead">
+              <div class="xpRole">Data Science & BI Intern</div>
+              <div class="xpCompany">CSC Global • Wilmington, Delaware</div>
+            </div>
+          </div>
+
+          <div class="xpDivider"></div>
+
+          <div class="xpPills">
+            <div class="xpPill">4 MONTHS</div>
+            <div class="xpPill xpPill--ghost">MAY 2025 – AUG 2025</div>
+          </div>
+
+          <ul class="xpList">
+            <li><span class="tick">✓</span> Built an automated PDF validation tool using Python (OpenCV, SSIM, PyMuPDF, Pillow) to detect pixel-level mismatches and auto-capture error screenshots.</li>
+            <li><span class="tick">✓</span> Developed a fuzzy-matching pipeline with Oracle SQL, Python (RapidFuzz), and Alteryx.</li>
+            <li><span class="tick">✓</span> Created an Advance Payment workflow integrating Power BI, Power Apps, and Power Automate (email generation + SharePoint Excel sync).</li>
+            <li><span class="tick">✓</span> Automated SAP Collections by exporting Power BI visuals to Excel via JSON array logic, reducing manual multi-row updates.</li>
+          </ul>
+        </article>
+
+        <!-- 2) SAAFE -->
+        <article class="xpCard">
+          <div class="xpTop">
+            <div class="xpLogo">
+              <img class="xpLogo__img" src="assets/saafe.jpg" alt="SAAFE Dashboard logo">
+            </div>
+
+            <div class="xpHead">
+              <div class="xpRole">Data Analyst Intern</div>
+              <div class="xpCompany">SAAFE Dashboard • Chennai, India</div>
+            </div>
+          </div>
+
+          <div class="xpDivider"></div>
+
+          <div class="xpPills">
+            <div class="xpPill">5 MONTHS</div>
+            <div class="xpPill xpPill--ghost">MAY 2023 – SEP 2023</div>
+          </div>
+
+          <ul class="xpList">
+            <li><span class="tick">✓</span> Developed Account Aggregator modules using Java, Python (Pandas, NumPy), and MongoDB to analyze banking datasets and extract customer insights.</li>
+            <li><span class="tick">✓</span> Built interactive dashboards in Power BI and Tableau for customer adoption trends and TSP activity.</li>
+            <li><span class="tick">✓</span> Designed and deployed a responsive frontend website using HTML, CSS, JavaScript with clean UI/UX and real-time API integration.</li>
+            <li><span class="tick">✓</span> Engineered system flow diagrams using Lucidchart, Draw.io, and StarUML to model data pipelines.</li>
+          </ul>
+        </article>
+
+        <!-- 3) Nutrition Organics -->
+        <article class="xpCard">
+          <div class="xpTop">
+            <div class="xpLogo">
+              <img class="xpLogo__img" src="assets/nutriton organics.avif" alt="Nutrition Organics logo">
+            </div>
+
+            <div class="xpHead">
+              <div class="xpRole">Business & R&amp;D Data Analyst Intern</div>
+              <div class="xpCompany">Nutrition Organics • Ahmedabad, India</div>
+            </div>
+          </div>
+
+          <div class="xpDivider"></div>
+
+          <div class="xpPills">
+            <div class="xpPill">5 MONTHS</div>
+            <div class="xpPill xpPill--ghost">JAN 2023 – MAY 2023</div>
+          </div>
+
+          <ul class="xpList">
+            <li><span class="tick">✓</span> Analyzed chemical and production data using Python (Pandas, NumPy) to support R&amp;D and business decisions.</li>
+            <li><span class="tick">✓</span> Improved billing and sales workflows through process analysis and efficiency tracking.</li>
+            <li><span class="tick">✓</span> Applied SQL, Power BI, Excel, and Jupyter for reporting and visualization.</li>
+          </ul>
+        </article>
+
+      </div>
+    </section>
+
+
+    <!-- ===================== PROJECTS ===================== -->
+    <section id="projects" class="section">
+      <h2 class="hPixel hPixel--xl sectionTitle">PROJECT ARCADE</h2>
+
+      <article class="projMegaCard">
+
+        <div class="projMegaHeader">
+          <div class="projMegaIcon">🕹️</div>
+          <div class="projMegaHeadText">
+            <div class="projMegaTitle hPixel">CLICK A PROJECT TO UNLOCK DETAILS</div>
+            <div class="projMegaSub">12 quests • hover shows the real resume title • click opens the description box</div>
+          </div>
+        </div>
+
+        <div class="projDivider"></div>
+
+        <div class="projMegaGrid">
+
+          <details class="projItem" data-full="CLEF Recognition using Image Processing">
+            <summary class="projSummary">
+              <span class="projFunName">🌸 PetalVision Quest</span>
+              <span class="projChip">Computer Vision</span>
+            </summary>
+            <div class="projBody">
+              <div class="projRealTitle">CLEF Recognition using Image Processing</div>
+              <p>
+                Built and labeled a flower dataset and implemented an image recognition pipeline using OpenCV + TensorFlow +
+                scikit-learn, improving accuracy with HSV transforms, segmentation, HOG features, and CNN layers.
+              </p>
+              <a class="gitLink" href="https://github.com/SanjithGanesh/Image-Processing-CLEF-Plants-Identification" target="_blank" rel="noopener">
+                🐙 <span>click me to open my GIT</span>
+              </a>
+            </div>
+          </details>
+
+          <details class="projItem" data-full="Image Processing to Detect Natural Calamity Victims from Social Media">
+            <summary class="projSummary">
+              <span class="projFunName">🚨 DisasterLens Radar</span>
+              <span class="projChip">CNN + APIs</span>
+            </summary>
+            <div class="projBody">
+              <div class="projRealTitle">Image Processing to Detect Natural Calamity Victims from Social Media</div>
+              <p>
+                Collected and preprocessed social media images via APIs, trained a CNN with transfer learning + augmentation,
+                used OpenCV segmentation/edges to reduce false positives, and integrated it into a Flask module (hackathon top-5).
+              </p>
+              <a class="gitLink" href="https://github.com/SanjithGanesh/Disaster-Classification" target="_blank" rel="noopener">
+                🐙 <span>click me to open my GIT</span>
+              </a>
+            </div>
+          </details>
+
+          <details class="projItem" data-full="Automated Code Integrity Checker (Plagiarism + Grading Evaluation Tool)">
+            <summary class="projSummary">
+              <span class="projFunName">🛡️ CodeCop 9000</span>
+              <span class="projChip">Flask + MySQL</span>
+            </summary>
+            <div class="projBody">
+              <div class="projRealTitle">Automated Code Integrity Checker (Plagiarism + Grading Evaluation Tool)</div>
+              <p>
+                Built an LMS-style tool to automate plagiarism detection + grading using AST comparison, tokenization,
+                similarity scoring, and rule-based evaluation; deployed with Flask + MySQL.
+              </p>
+              <a class="gitLink" href="https://github.com/SanjithGanesh/Code-Plagiarism-Detector" target="_blank" rel="noopener">
+                🐙 <span>click me to open my GIT</span>
+              </a>
+            </div>
+          </details>
+
+          <details class="projItem" data-full="Database System for Medical Health Center (MongoDB + Java)">
+            <summary class="projSummary">
+              <span class="projFunName">🏥 MediVault DB</span>
+              <span class="projChip">MongoDB</span>
+            </summary>
+            <div class="projBody">
+              <div class="projRealTitle">Database System for Medical Health Center (MongoDB + Java)</div>
+              <p>
+                Designed a medical database system using MongoDB + Java framework for intercollege health-center management.
+              </p>
+              <a class="gitLink" href="https://github.com/SanjithGanesh/Medical-Management-System" target="_blank" rel="noopener">
+                🐙 <span>click me to open my GIT</span>
+              </a>
+            </div>
+          </details>
+
+          <details class="projItem" data-full="IDS and IPS Detection using Networking">
+            <summary class="projSummary">
+              <span class="projFunName">🛜 NetShield IDS/IPS</span>
+              <span class="projChip">Networking</span>
+            </summary>
+            <div class="projBody">
+              <div class="projRealTitle">IDS and IPS Detection using Networking</div>
+              <p>
+                Implemented a network security model to detect malicious events using IDS/IPS protocols and traffic monitoring logic.
+              </p>
+              <a class="gitLink" href="https://github.com/SanjithGanesh/IDS-IPS-cloud-Based-Networking" target="_blank" rel="noopener">
+                🐙 <span>click me to open my GIT</span>
+              </a>
+            </div>
+          </details>
+
+          <details class="projItem" data-full="Social Network Visualization using GEPHI">
+            <summary class="projSummary">
+              <span class="projFunName">🕸️ GraphGazer</span>
+              <span class="projChip">Gephi</span>
+            </summary>
+            <div class="projBody">
+              <div class="projRealTitle">Social Network Visualization using GEPHI</div>
+              <p>
+                Analyzed collaboration networks in Gephi using centrality and community detection, then visualized structure + influence patterns.
+              </p>
+              <a class="gitLink" href="PASTE_GITHUB_LINK_HERE" target="_blank" rel="noopener">
+                🐙 <span>click me to open my GIT</span>
+              </a>
+              <!-- TODO: paste your Git link above -->
+            </div>
+          </details>
+
+          <details class="projItem" data-full="Growth Mindset Intervention Causal Impact Analysis (ATE Estimation)">
+            <summary class="projSummary">
+              <span class="projFunName">🧠 Mindset Impact Lab</span>
+              <span class="projChip">Causal</span>
+            </summary>
+            <div class="projBody">
+              <div class="projRealTitle">Growth Mindset Intervention Causal Impact Analysis (ATE Estimation)</div>
+              <p>
+                Estimated causal effect of a growth-mindset nudge on student achievement by modeling treatment assignment and ATE-style impact.
+              </p>
+              <a class="gitLink" href="https://github.com/SanjithGanesh/Growth-Mindset-Intervention-Causal-Impact-Analysis--ATE-Estimation-" target="_blank" rel="noopener">
+                🐙 <span>click me to open my GIT</span>
+              </a>
+            </div>
+          </details>
+
+          <details class="projItem" data-full="Subsampling vs Ridge Regularization (Theoretical + Empirical Study)">
+            <summary class="projSummary">
+              <span class="projFunName">🎲 Ridge vs Random Squad</span>
+              <span class="projChip">R</span>
+            </summary>
+            <div class="projBody">
+              <div class="projRealTitle">Subsampling vs Ridge Regularization (Theoretical + Empirical Study)</div>
+              <p>
+                Studied how subsampling-based linear ensembles compare to L2 ridge regularization in high-dimensional controlled simulations.
+              </p>
+              <a class="gitLink" href="https://github.com/SanjithGanesh/Subsampling-vs-Ridge-Regularization" target="_blank" rel="noopener">
+                🐙 <span>click me to open my GIT</span>
+              </a>
+            </div>
+          </details>
+
+          <details class="projItem" data-full="News Headline Classification (AG News): TF-IDF vs DistilBERT/RoBERTa + LoRA">
+            <summary class="projSummary">
+              <span class="projFunName">🗞️ Headline Battle Royale</span>
+              <span class="projChip">NLP</span>
+            </summary>
+            <div class="projBody">
+              <div class="projRealTitle">News Headline Classification (AG News): TF-IDF baselines vs DistilBERT/RoBERTa + LoRA</div>
+              <p>
+                Benchmarked TF-IDF + LR/SVM against transformers and compared full fine-tuning vs LoRA with dropout, using metrics + error analysis.
+              </p>
+              <a class="gitLink" href="https://github.com/SanjithGanesh/News-Headline-Classification---Baseline-vs-Transformers-Finetuning" target="_blank" rel="noopener">
+                🐙 <span>click me to open my GIT</span>
+              </a>
+            </div>
+          </details>
+
+          <details class="projItem" data-full="Exponential Family Embeddings Comparison (P-EMB vs Additive/Downweighted + PCA/HPF)">
+            <summary class="projSummary">
+              <span class="projFunName">🕹️ Embedding Arcade</span>
+              <span class="projChip">Embeddings</span>
+            </summary>
+            <div class="projBody">
+              <div class="projRealTitle">Exponential Family Embeddings Comparison (P-EMB vs Additive/Downweighted P-EMB + PCA/HPF)</div>
+              <p>
+                Compared multiple Poisson embedding variants with PCA/HPF baselines to evaluate embedding quality and model fit.
+              </p>
+              <a class="gitLink" href="https://github.com/SanjithGanesh/Representation-of-Family-Embeddings" target="_blank" rel="noopener">
+                🐙 <span>click me to open my GIT</span>
+              </a>
+            </div>
+          </details>
+
+          <details class="projItem" data-full="Attendance Management System (Advanced DBMS): role-based web app + PostgreSQL">
+            <summary class="projSummary">
+              <span class="projFunName">📅 Attend-O-Matic</span>
+              <span class="projChip">Postgres</span>
+            </summary>
+            <div class="projBody">
+              <div class="projRealTitle">Attendance Management System (Advanced DBMS): role-based web app + PostgreSQL</div>
+              <p>
+                Built a role-based app (Student/Teacher/Admin) with PostgreSQL backend for enrollments + attendance workflows, secure login, CSV import/export, and dashboards.
+              </p>
+              <a class="gitLink" href="https://github.com/SanjithGanesh/Attendance-Tracking-System" target="_blank" rel="noopener">
+                🐙 <span>click me to open my GIT</span>
+              </a>
+            </div>
+          </details>
+
+          <details class="projItem" data-full="Movie Data Warehouse Pipeline (Web Scraping + ETL): fact–dimension schema">
+            <summary class="projSummary">
+              <span class="projFunName">🎬 CinemaForge ETL</span>
+              <span class="projChip">ETL</span>
+            </summary>
+            <div class="projBody">
+              <div class="projRealTitle">Movie Data Warehouse Pipeline (Web Scraping + ETL): fact–dimension schema</div>
+              <p>
+                Built an end-to-end pipeline to scrape, clean, normalize, and load movie metadata into a fact–dimension warehouse for fast SQL analytics.
+              </p>
+              <a class="gitLink" href="https://github.com/SanjithGanesh/Movie-Recommender-Data-Warehouse" target="_blank" rel="noopener">
+                🐙 <span>click me to open my GIT</span>
+              </a>
+            </div>
+          </details>
+
+        </div>
+      </article>
+    </section>
+
+
+    <!-- ===================== SKILLS ===================== -->
+    <section id="skills" class="section">
+      <h2 class="hPixel hPixel--xl sectionTitle">SKILL STATION</h2>
+
+      <article class="skillsMegaCard">
+
+        <input class="tabRadio" type="radio" name="skillTab" id="tab-lang" checked>
+        <input class="tabRadio" type="radio" name="skillTab" id="tab-db">
+        <input class="tabRadio" type="radio" name="skillTab" id="tab-fw">
+        <input class="tabRadio" type="radio" name="skillTab" id="tab-tools">
+
+        <div class="skillsTabs">
+          <label class="skillTab" for="tab-lang">🧬 Code Spells <span>(9)</span></label>
+          <label class="skillTab" for="tab-db">🗄️ Data Vaults <span>(5)</span></label>
+          <label class="skillTab" for="tab-fw">🛠️ Build Forge <span>(8)</span></label>
+          <label class="skillTab" for="tab-tools">🎛️ Toolbelt + Domains <span>(7)</span></label>
+        </div>
+
+        <div class="skillsPanels">
+
+          <!-- LANGUAGES -->
+          <div class="skillsPanel panel-lang">
+            <div class="skillsGrid">
+              <div class="skillCard" data-emoji="🐍">
+                <div class="skillTopRow"><div class="skillName">Python</div><div class="skillPill">Languages</div></div>
+                <div class="stars" style="--rating:5;"></div>
+              </div>
+              <div class="skillCard" data-emoji="☕">
+                <div class="skillTopRow"><div class="skillName">Java</div><div class="skillPill">Languages</div></div>
+                <div class="stars" style="--rating:4.5;"></div>
+              </div>
+              <div class="skillCard" data-emoji="🧾">
+                <div class="skillTopRow"><div class="skillName">SQL</div><div class="skillPill">Languages</div></div>
+                <div class="stars" style="--rating:5;"></div>
+              </div>
+              <div class="skillCard" data-emoji="📦">
+                <div class="skillTopRow"><div class="skillName">R</div><div class="skillPill">Languages</div></div>
+                <div class="stars" style="--rating:4.5;"></div>
+              </div>
+              <div class="skillCard" data-emoji="🧠">
+                <div class="skillTopRow"><div class="skillName">DAX</div><div class="skillPill">Languages</div></div>
+                <div class="stars" style="--rating:4;"></div>
+              </div>
+              <div class="skillCard" data-emoji="🟨">
+                <div class="skillTopRow"><div class="skillName">JavaScript</div><div class="skillPill">Languages</div></div>
+                <div class="stars" style="--rating:4.5;"></div>
+              </div>
+              <div class="skillCard" data-emoji="🔷">
+                <div class="skillTopRow"><div class="skillName">TypeScript</div><div class="skillPill">Languages</div></div>
+                <div class="stars" style="--rating:4;"></div>
+              </div>
+              <div class="skillCard" data-emoji="💻">
+                <div class="skillTopRow"><div class="skillName">C</div><div class="skillPill">Languages</div></div>
+                <div class="stars" style="--rating:4;"></div>
+              </div>
+              <div class="skillCard" data-emoji="🧱">
+                <div class="skillTopRow"><div class="skillName">C++</div><div class="skillPill">Languages</div></div>
+                <div class="stars" style="--rating:4.5;"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- DATABASES -->
+          <div class="skillsPanel panel-db">
+            <div class="skillsGrid">
+              <div class="skillCard" data-emoji="🐬">
+                <div class="skillTopRow"><div class="skillName">MySQL</div><div class="skillPill">Databases</div></div>
+                <div class="stars" style="--rating:4.5;"></div>
+              </div>
+              <div class="skillCard" data-emoji="🐘">
+                <div class="skillTopRow"><div class="skillName">PostgreSQL</div><div class="skillPill">Databases</div></div>
+                <div class="stars" style="--rating:4.5;"></div>
+              </div>
+              <div class="skillCard" data-emoji="🍃">
+                <div class="skillTopRow"><div class="skillName">MongoDB</div><div class="skillPill">Databases</div></div>
+                <div class="stars" style="--rating:5;"></div>
+              </div>
+              <div class="skillCard" data-emoji="🟫">
+                <div class="skillTopRow"><div class="skillName">Oracle</div><div class="skillPill">Databases</div></div>
+                <div class="stars" style="--rating:4;"></div>
+              </div>
+              <div class="skillCard" data-emoji="🔥">
+                <div class="skillTopRow"><div class="skillName">Firebase</div><div class="skillPill">Databases</div></div>
+                <div class="stars" style="--rating:4;"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- FRAMEWORKS/LIBS -->
+          <div class="skillsPanel panel-fw">
+            <div class="skillsGrid">
+              <div class="skillCard" data-emoji="🌶️"><div class="skillTopRow"><div class="skillName">Flask</div><div class="skillPill">Frameworks</div></div><div class="stars" style="--rating:4.5;"></div></div>
+              <div class="skillCard" data-emoji="⚛️"><div class="skillTopRow"><div class="skillName">React</div><div class="skillPill">Frameworks</div></div><div class="stars" style="--rating:4.5;"></div></div>
+              <div class="skillCard" data-emoji="🟩"><div class="skillTopRow"><div class="skillName">Node.js</div><div class="skillPill">Frameworks</div></div><div class="stars" style="--rating:4.5;"></div></div>
+              <div class="skillCard" data-emoji="🧱"><div class="skillTopRow"><div class="skillName">NestJS</div><div class="skillPill">Frameworks</div></div><div class="stars" style="--rating:4;"></div></div>
+              <div class="skillCard" data-emoji="🎀"><div class="skillTopRow"><div class="skillName">Bootstrap</div><div class="skillPill">Frameworks</div></div><div class="stars" style="--rating:4;"></div></div>
+              <div class="skillCard" data-emoji="🦋"><div class="skillTopRow"><div class="skillName">Flutter</div><div class="skillPill">Frameworks</div></div><div class="stars" style="--rating:4;"></div></div>
+              <div class="skillCard" data-emoji="🧬"><div class="skillTopRow"><div class="skillName">TensorFlow </div><div class="skillPill">ML</div></div><div class="stars" style="--rating:4;"></div></div>
+              <div class="skillCard" data-emoji="🔥"><div class="skillTopRow"><div class="skillName">PyTorch</div><div class="skillPill">ML</div></div><div class="stars" style="--rating:4;"></div></div>
+            </div>
+          </div>
+
+          <!-- TOOLS + DOMAINS -->
+          <div class="skillsPanel panel-tools">
+            <div class="skillsGrid">
+              <div class="skillCard" data-emoji="📊"><div class="skillTopRow"><div class="skillName">Power BI</div><div class="skillPill">Tools</div></div><div class="stars" style="--rating:5;"></div></div>
+              <div class="skillCard" data-emoji="📈"><div class="skillTopRow"><div class="skillName">Tableau</div><div class="skillPill">Tools</div></div><div class="stars" style="--rating:4.5;"></div></div>
+              <div class="skillCard" data-emoji="🧾"><div class="skillTopRow"><div class="skillName">Microsoft Excel</div><div class="skillPill">Tools</div></div><div class="stars" style="--rating:5;"></div></div>
+              <div class="skillCard" data-emoji="🧩"><div class="skillTopRow"><div class="skillName">Alteryx</div><div class="skillPill">Tools</div></div><div class="stars" style="--rating:4.5;"></div></div>
+              <div class="skillCard" data-emoji="🛠️"><div class="skillTopRow"><div class="skillName">Data Engineering (ETL)</div><div class="skillPill">Domain</div></div><div class="stars" style="--rating:4.5;"></div></div>
+              <div class="skillCard" data-emoji="🗣️"><div class="skillTopRow"><div class="skillName">NLP</div><div class="skillPill">Domain</div></div><div class="stars" style="--rating:4.5;"></div></div>
+              <div class="skillCard" data-emoji="🧮"><div class="skillTopRow"><div class="skillName">Data & Business Analysis</div><div class="skillPill">Domain</div></div><div class="stars" style="--rating:5;"></div></div>
+            </div>
+          </div>
+
+        </div>
+      </article>
+    </section>
+
+
+    <!-- ===================== FUN ZONE ===================== -->
+    <section id="funzone" class="section">
+      <article class="funBanner">
+        <div class="funBanner__top">
+          <div class="funBadge">😈</div>
+          <div>
+            <div class="funTitle hPixel">YO! YOU MADE IT!😎</div>
+            <div class="funMsg">
+              DEMNNN YOU CAME ALL THE WAY! MY WEBSITE MUST HAVE BEEN PRETTY FUN!😂.
+              <span class="funMsg__accent">NOW LET’S MAKE IT EVEN MORE UNHINGED.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="funBtns">
+          <button class="funBtn" id="btnConfetti" type="button">
+            🎉 CLICK HERE
+            <span class="funBtn__sub">confetti nuke</span>
+          </button>
+
+          <button class="funBtn" id="btnTrip" type="button">
+            🌈 CLICK HERE
+            <span class="funBtn__sub">go full trippy</span>
+          </button>
+
+          <button class="funBtn" id="btnPrank" type="button">
+            😏 CLICK HERE
+            <span class="funBtn__sub">definitely not a prank</span>
+          </button>
+
+          <!-- RESUME BUTTON -->
+          <a class="funBtn funBtn--resume" id="btnResume"
+             href="assets/Sanjith_Ganesh_Resume.pdf"
+             target="_blank" rel="noopener">
+            📄 RESUME
+            <span class="funBtn__sub">open my PDF</span>
+          </a>
+          <!-- TODO: Replace assets/PASTE_YOUR_RESUME_FILENAME.pdf with your resume file name in /assets -->
+        </div>
+      </article>
+    </section>
+
+
+<!-- ===================== CONTACT ===================== -->
+<section id="contact" class="section">
+  <h2 class="hPixel hPixel--xl sectionTitle">CONTACT</h2>
+
+  <article class="contactMega card">
+    <div class="contactHead">
+      <div class="contactHead__icon">📡</div>
+      <div>
+        <div class="contactHead__title hPixel">OKAY, LET’S TALK.</div>
+        <div class="contactHead__sub">Pick your weapon of choice 👇</div>
+      </div>
+    </div>
+
+    <div class="contactDivider"></div>
+
+    <div class="contactGrid">
+
+      <!-- 1) Gmail -->
+      <a class="contactCardItem" href="mailto:gsj2442@gmail.com" aria-label="Email Sanjith on Gmail">
+        <div class="contactIcon">
+          <!-- You can replace these src URLs with local files later if you want -->
+          <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" alt="Gmail logo">
+        </div>
+        <div class="contactInfo">
+          <div class="contactLabel">Mail</div>
+          <div class="contactValue">gsj2442@gmail.com</div>
+        </div>
+        <div class="contactHint">click</div>
+      </a>
+
+      <!-- 2) WhatsApp (phone) -->
+      <a class="contactCardItem" href="https://wa.me/19086722790" target="_blank" rel="noopener" aria-label="WhatsApp Sanjith">
+        <div class="contactIcon">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp logo">
+        </div>
+        <div class="contactInfo">
+          <div class="contactLabel">WhatsApp</div>
+          <div class="contactValue">+1 908 672 2790</div>
+        </div>
+        <div class="contactHint">click</div>
+      </a>
+
+      <!-- 3) LinkedIn -->
+      <a class="contactCardItem" href="https://www.linkedin.com/in/sanjith-ganesh/" target="_blank" rel="noopener" aria-label="Open Sanjith LinkedIn">
+        <div class="contactIcon">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn logo">
+        </div>
+        <div class="contactInfo">
+          <div class="contactLabel">LinkedIn</div>
+          <div class="contactValue">SanjithGanesh</div>
+        </div>
+        <div class="contactHint">click</div>
+      </a>
+      <!-- TODO: Replace PASTE_LINKEDIN_LINK_HERE with your real LinkedIn URL -->
+
+      <!-- 4) GitHub -->
+      <a class="contactCardItem" href="https://github.com/SanjithGanesh?tab=repositories" target="_blank" rel="noopener" aria-label="Open Sanjith GitHub">
+        <div class="contactIcon">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub logo">
+        </div>
+        <div class="contactInfo">
+          <div class="contactLabel">GitHub</div>
+          <div class="contactValue">SanjithGanesh</div>
+        </div>
+        <div class="contactHint">click</div>
+      </a>
+      <!-- TODO: Replace PASTE_GITHUB_PROFILE_LINK_HERE with your GitHub profile URL -->
+
+      <!-- 5) Rutgers mail -->
+      <a class="contactCardItem" href="mailto:sg2151@scarletmail.rutgers.edu" aria-label="Email Sanjith on Rutgers mail">
+        <div class="contactIcon">
+          <!-- Rutgers seal (official-style). If you prefer a different Rutgers logo, swap the src. -->
+          <img class="xpLogo__img" src="assets/rutgers.png" alt="Rutgers">
+        </div>
+        <div class="contactInfo">
+          <div class="contactLabel">Alt Mail</div>
+          <div class="contactValue">sg2151@scarletmail.rutgers.edu</div>
+        </div>
+        <div class="contactHint">click</div>
+      </a>
+
+    </div>
+  </article>
+</section>
+
+
+  </main>
+
+  <!-- Toast popup -->
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <!-- Confetti canvas (created dynamically in JS) -->
+
+  <script>
+    // ---------- TOAST ----------
+    const toast = document.getElementById("toast");
+    let toastTimer = null;
+
+    function showToast(msg) {
+      toast.textContent = msg;
+      toast.classList.add("toast--show");
+      clearTimeout(toastTimer);
+      toastTimer = setTimeout(() => toast.classList.remove("toast--show"), 2600);
+    }
+
+    // ---------- CONFETTI (1 second, full page) ----------
+    function confettiBlast(durationMs = 1000) {
+      const canvas = document.createElement("canvas");
+      canvas.className = "confettiCanvas";
+      document.body.appendChild(canvas);
+
+      const ctx = canvas.getContext("2d");
+      let w = canvas.width = window.innerWidth;
+      let h = canvas.height = window.innerHeight;
+
+      const colors = [
+        "#ffffff", "#7fb6ff", "#2f76ff", "#e2c3a4", "#d8b493",
+        "#00f5d4", "#ffd166", "#ff5c8a", "#b8ff6a"
+      ];
+
+      const pieces = [];
+      const pieceCount = 260;
+
+      function rand(min, max){ return Math.random() * (max - min) + min; }
+
+      for (let i = 0; i < pieceCount; i++) {
+        pieces.push({
+          x: rand(0, w),
+          y: rand(-h, 0),
+          r: rand(2, 6),
+          w: rand(6, 14),
+          h: rand(8, 18),
+          vx: rand(-3.2, 3.2),
+          vy: rand(4, 9),
+          rot: rand(0, Math.PI * 2),
+          vr: rand(-0.2, 0.2),
+          color: colors[Math.floor(Math.random() * colors.length)],
+          shape: Math.random() > 0.5 ? "rect" : "circle",
+          alpha: rand(0.75, 1)
+        });
+      }
+
+      const start = performance.now();
+
+      function resize() {
+        w = canvas.width = window.innerWidth;
+        h = canvas.height = window.innerHeight;
+      }
+      window.addEventListener("resize", resize, { passive: true });
+
+      function draw(t) {
+        const elapsed = t - start;
+        ctx.clearRect(0, 0, w, h);
+
+        for (const p of pieces) {
+          p.x += p.vx;
+          p.y += p.vy;
+          p.rot += p.vr;
+          p.vy += 0.04; // gravity
+
+          // wrap horizontally
+          if (p.x < -40) p.x = w + 40;
+          if (p.x > w + 40) p.x = -40;
+
+          ctx.save();
+          ctx.globalAlpha = p.alpha;
+          ctx.translate(p.x, p.y);
+          ctx.rotate(p.rot);
+          ctx.fillStyle = p.color;
+
+          if (p.shape === "rect") {
+            ctx.fillRect(-p.w/2, -p.h/2, p.w, p.h);
+          } else {
+            ctx.beginPath();
+            ctx.arc(0, 0, p.r, 0, Math.PI * 2);
+            ctx.fill();
+          }
+          ctx.restore();
+        }
+
+        if (elapsed < durationMs) {
+          requestAnimationFrame(draw);
+        } else {
+          window.removeEventListener("resize", resize);
+          canvas.remove();
+        }
+      }
+
+      requestAnimationFrame(draw);
+    }
+
+    // ---------- TRIP MODE ----------
+    let tripTimer = null;
+    function tripMode(ms = 2600) {
+      document.body.classList.remove("tripMode"); // reset
+      void document.body.offsetWidth; // reflow to restart animation
+      document.body.classList.add("tripMode");
+
+      clearTimeout(tripTimer);
+      tripTimer = setTimeout(() => {
+        document.body.classList.remove("tripMode");
+      }, ms);
+    }
+
+    // ---------- BUTTONS ----------
+    document.getElementById("btnConfetti").addEventListener("click", () => {
+      confettiBlast(1000);
+    });
+
+    document.getElementById("btnTrip").addEventListener("click", () => {
+      tripMode(2800);
+    });
+
+    document.getElementById("btnPrank").addEventListener("click", () => {
+      showToast("Haha 😭 that was just a prank. Anyway… nice that you came to the end — scroll down for my contact 😉");
+    });
+  </script>
+
+</body>
+</html>

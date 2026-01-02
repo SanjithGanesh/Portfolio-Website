@@ -7,7 +7,6 @@ No permission is granted to use, copy, modify, distribute, publish, or deploy an
 
 Unauthorized use is strictly prohibited.
 
-Here’s a clean, GitHub-ready `README.md` for your portfolio website (based on your `index.html`, `styles.css`, and `/assets` contents). Copy-paste this into a new file named **README.md** in your repo root.
 
 ````md
 # Sanjith • Portfolio (SAGA.)

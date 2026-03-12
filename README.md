@@ -168,13 +168,6 @@ body.theme-blue { ... }
 
 ---
 
-## 📜 License
-
-No license is included currently.
-If you want this project to be reusable by others, consider adding an **MIT License**.
-
----
-
 ## 📬 Contact
 
 * Email: `gsj2442@gmail.com`

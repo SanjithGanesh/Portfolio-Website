@@ -176,5 +176,3 @@ body.theme-blue { ... }
 
 ```
 
-If you want, I can also generate a **more “portfolio-like” README** with a hero banner, badges, and screenshot placeholders (while keeping it professional).
-```

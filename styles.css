@@ -430,15 +430,26 @@ a{color:inherit; text-decoration:none}
 }
 
 /* ---------- SKILLS ---------- */
+
 .skillsMegaCard{
   border-radius:var(--radius2);
   background:linear-gradient(180deg, rgba(0,0,0,.55), rgba(0,0,0,.72));
   border:1px solid rgba(255,255,255,.10);
-  box-shadow: var(--shadow);
+  box-shadow:var(--shadow);
   padding:18px;
 }
 
-.tabRadio{position:absolute; opacity:0; pointer-events:none}
+
+/* ---------- HIDDEN TAB RADIO BUTTONS ---------- */
+
+.tabRadio{
+  position:absolute;
+  opacity:0;
+  pointer-events:none;
+}
+
+
+/* ---------- SKILL TAB NAVIGATION ---------- */
 
 .skillsTabs{
   display:flex;
@@ -447,6 +458,7 @@ a{color:inherit; text-decoration:none}
   flex-wrap:wrap;
   margin:6px 0 18px;
 }
+
 .skillTab{
   cursor:pointer;
   user-select:none;
@@ -460,24 +472,86 @@ a{color:inherit; text-decoration:none}
   transition:.18s ease;
   box-shadow:0 10px 30px rgba(0,0,0,.35);
 }
-.skillTab span{opacity:.85}
-.skillTab:hover{transform:translateY(-2px); background:rgba(255,255,255,.06)}
+
+.skillTab span{
+  opacity:.85;
+}
+
+.skillTab:hover{
+  transform:translateY(-2px);
+  background:rgba(255,255,255,.06);
+}
+
+
+/* ---------- ACTIVE SKILL TAB ---------- */
 
 #tab-lang:checked ~ .skillsTabs label[for="tab-lang"],
 #tab-db:checked ~ .skillsTabs label[for="tab-db"],
 #tab-fw:checked ~ .skillsTabs label[for="tab-fw"],
+#tab-ai:checked ~ .skillsTabs label[for="tab-ai"],
+#tab-cloud:checked ~ .skillsTabs label[for="tab-cloud"],
 #tab-tools:checked ~ .skillsTabs label[for="tab-tools"]{
-  background:linear-gradient(180deg, rgba(226,195,164,.98), rgba(214,181,147,.98));
+  background:linear-gradient(
+    180deg,
+    rgba(226,195,164,.98),
+    rgba(214,181,147,.98)
+  );
   color:#0a3a3a;
-  border-color: rgba(255,255,255,.22);
-  transform: translateY(-2px);
+  border-color:rgba(255,255,255,.22);
+  transform:translateY(-2px);
 }
 
-.skillsPanels .skillsPanel{display:none}
-#tab-lang:checked ~ .skillsPanels .panel-lang{display:block}
-#tab-db:checked ~ .skillsPanels .panel-db{display:block}
-#tab-fw:checked ~ .skillsPanels .panel-fw{display:block}
-#tab-tools:checked ~ .skillsPanels .panel-tools{display:block}
+
+/* ---------- SKILL PANELS ---------- */
+
+.skillsPanels .skillsPanel{
+  display:none;
+}
+
+
+/* Code Spells */
+
+#tab-lang:checked ~ .skillsPanels .panel-lang{
+  display:block;
+}
+
+
+/* Data Vaults */
+
+#tab-db:checked ~ .skillsPanels .panel-db{
+  display:block;
+}
+
+
+/* Build Forge */
+
+#tab-fw:checked ~ .skillsPanels .panel-fw{
+  display:block;
+}
+
+
+/* AI & Agents */
+
+#tab-ai:checked ~ .skillsPanels .panel-ai{
+  display:block;
+}
+
+
+/* Cloud & MLOps */
+
+#tab-cloud:checked ~ .skillsPanels .panel-cloud{
+  display:block;
+}
+
+
+/* Toolbelt + Domains */
+
+#tab-tools:checked ~ .skillsPanels .panel-tools{
+  display:block;
+}
+
+
+/* ---------- SKILLS GRID ---------- */
 
 .skillsGrid{
   display:grid;
@@ -485,20 +559,32 @@ a{color:inherit; text-decoration:none}
   gap:16px;
 }
 
+
+/* ---------- INDIVIDUAL SKILL CARD ---------- */
+
 .skillCard{
   position:relative;
   overflow:hidden;
   border-radius:16px;
-  background:linear-gradient(180deg, rgba(20,20,20,.88), rgba(12,12,12,.88));
+  background:linear-gradient(
+    180deg,
+    rgba(20,20,20,.88),
+    rgba(12,12,12,.88)
+  );
   border:1px solid rgba(255,255,255,.10);
   padding:18px 18px 16px;
   transition:.18s ease;
   box-shadow:0 16px 50px rgba(0,0,0,.5);
 }
+
 .skillCard:hover{
-  transform: translateY(-10px) scale(1.02) rotate(-0.2deg);
-  border-color: rgba(127,182,255,.30);
+  transform:translateY(-10px) scale(1.02) rotate(-0.2deg);
+  border-color:rgba(127,182,255,.30);
 }
+
+
+/* ---------- SKILL CARD TOP ROW ---------- */
+
 .skillTopRow{
   display:flex;
   align-items:flex-start;
@@ -506,12 +592,14 @@ a{color:inherit; text-decoration:none}
   gap:12px;
   margin-bottom:10px;
 }
+
 .skillName{
   font-family:"Press Start 2P";
   color:var(--sand);
   font-size:14px;
   line-height:1.35;
 }
+
 .skillPill{
   font-family:"Press Start 2P";
   font-size:10px;
@@ -523,18 +611,23 @@ a{color:inherit; text-decoration:none}
   white-space:nowrap;
 }
 
+
+/* ---------- STAR RATINGS ---------- */
+
 .stars{
-  --rating: 4.5;
-  --percent: calc(var(--rating) / 5 * 100%);
+  --rating:4.5;
+  --percent:calc(var(--rating) / 5 * 100%);
   font-size:16px;
   letter-spacing:4px;
   line-height:1;
   margin-top:6px;
-  filter: drop-shadow(0 8px 18px rgba(0,0,0,.35));
+  filter:drop-shadow(0 8px 18px rgba(0,0,0,.35));
 }
+
 .stars::before{
   content:"★★★★★";
-  background: linear-gradient(90deg,
+  background:linear-gradient(
+    90deg,
     var(--sand) var(--percent),
     rgba(255,255,255,.20) var(--percent)
   );
@@ -543,46 +636,93 @@ a{color:inherit; text-decoration:none}
   -webkit-text-fill-color:transparent;
 }
 
+
+/* ---------- EMOJI HOVER EFFECT ---------- */
+
 .skillCard::after{
-  content: attr(data-emoji);
+  content:attr(data-emoji);
   position:absolute;
   right:14px;
   bottom:12px;
   font-size:22px;
   opacity:0;
-  transform: translateY(10px) rotate(-10deg) scale(.8);
+  transform:translateY(10px) rotate(-10deg) scale(.8);
   transition:.18s ease;
 }
+
 .skillCard:hover::after{
   opacity:.95;
-  transform: translateY(0) rotate(0deg) scale(1);
+  transform:translateY(0) rotate(0deg) scale(1);
 }
+
+
+/* ---------- SHINE EFFECT ---------- */
+
 .skillCard::before{
   content:"";
   position:absolute;
   inset:-40% -80%;
-  background:linear-gradient(90deg, transparent, rgba(255,255,255,.12), transparent);
-  transform: rotate(18deg) translateX(-50%);
+  background:linear-gradient(
+    90deg,
+    transparent,
+    rgba(255,255,255,.12),
+    transparent
+  );
+  transform:rotate(18deg) translateX(-50%);
   opacity:0;
 }
+
 .skillCard:hover::before{
   opacity:1;
-  animation: shine 1.1s ease forwards;
+  animation:shine 1.1s ease forwards;
 }
+
 @keyframes shine{
-  0%{transform:rotate(18deg) translateX(-55%)}
-  100%{transform:rotate(18deg) translateX(55%)}
+  0%{
+    transform:rotate(18deg) translateX(-55%);
+  }
+
+  100%{
+    transform:rotate(18deg) translateX(55%);
+  }
 }
-.skillCard:hover{animation: bop .25s ease both}
+
+
+/* ---------- CARD BOP ANIMATION ---------- */
+
+.skillCard:hover{
+  animation:bop .25s ease both;
+}
+
 @keyframes bop{
-  0%{transform: translateY(0) scale(1)}
-  60%{transform: translateY(-10px) scale(1.02)}
-  100%{transform: translateY(-8px) scale(1.015)}
+  0%{
+    transform:translateY(0) scale(1);
+  }
+
+  60%{
+    transform:translateY(-10px) scale(1.02);
+  }
+
+  100%{
+    transform:translateY(-8px) scale(1.015);
+  }
 }
-.skillCard:hover .stars{animation: twinkle .9s ease-in-out infinite}
+
+
+/* ---------- STAR TWINKLE ---------- */
+
+.skillCard:hover .stars{
+  animation:twinkle .9s ease-in-out infinite;
+}
+
 @keyframes twinkle{
-  0%,100%{filter: drop-shadow(0 8px 18px rgba(0,0,0,.35))}
-  50%{filter: drop-shadow(0 10px 24px rgba(127,182,255,.25))}
+  0%,100%{
+    filter:drop-shadow(0 8px 18px rgba(0,0,0,.35));
+  }
+
+  50%{
+    filter:drop-shadow(0 10px 24px rgba(127,182,255,.25));
+  }
 }
 
 /* ---------- FUN ZONE ---------- */

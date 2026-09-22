@@ -473,123 +473,254 @@
 
 
     <!-- ===================== SKILLS ===================== -->
-    <section id="skills" class="section">
-      <h2 class="hPixel hPixel--xl sectionTitle">SKILL STATION</h2>
+<section id="skills" class="section">
+  <h2 class="hPixel hPixel--xl sectionTitle">SKILL STATION</h2>
 
-      <article class="skillsMegaCard">
+  <article class="skillsMegaCard">
 
-        <input class="tabRadio" type="radio" name="skillTab" id="tab-lang" checked>
-        <input class="tabRadio" type="radio" name="skillTab" id="tab-db">
-        <input class="tabRadio" type="radio" name="skillTab" id="tab-fw">
-        <input class="tabRadio" type="radio" name="skillTab" id="tab-tools">
+    <!-- TAB CONTROLS -->
+    <input class="tabRadio" type="radio" name="skillTab" id="tab-lang" checked>
+    <input class="tabRadio" type="radio" name="skillTab" id="tab-db">
+    <input class="tabRadio" type="radio" name="skillTab" id="tab-fw">
+    <input class="tabRadio" type="radio" name="skillTab" id="tab-ai">
+    <input class="tabRadio" type="radio" name="skillTab" id="tab-cloud">
+    <input class="tabRadio" type="radio" name="skillTab" id="tab-tools">
 
-        <div class="skillsTabs">
-          <label class="skillTab" for="tab-lang">🧬 Code Spells <span>(9)</span></label>
-          <label class="skillTab" for="tab-db">🗄️ Data Vaults <span>(5)</span></label>
-          <label class="skillTab" for="tab-fw">🛠️ Build Forge <span>(8)</span></label>
-          <label class="skillTab" for="tab-tools">🎛️ Toolbelt + Domains <span>(7)</span></label>
-        </div>
+    <!-- TAB BUTTONS -->
+    <div class="skillsTabs">
+      <label class="skillTab" for="tab-lang">🧬 Code Spells <span>(9)</span></label>
+      <label class="skillTab" for="tab-db">🗄️ Data Vaults <span>(6)</span></label>
+      <label class="skillTab" for="tab-fw">🛠️ Build Forge <span>(12)</span></label>
+      <label class="skillTab" for="tab-ai">🤖 AI &amp; Agents <span>(9)</span></label>
+      <label class="skillTab" for="tab-cloud">☁️ Cloud &amp; MLOps <span>(13)</span></label>
+      <label class="skillTab" for="tab-tools">🎛️ Toolbelt + Domains <span>(15)</span></label>
+    </div>
 
-        <div class="skillsPanels">
+    <div class="skillsPanels">
 
-          <!-- LANGUAGES -->
-          <div class="skillsPanel panel-lang">
-            <div class="skillsGrid">
-              <div class="skillCard" data-emoji="🐍">
-                <div class="skillTopRow"><div class="skillName">Python</div><div class="skillPill">Languages</div></div>
-                <div class="stars" style="--rating:5;"></div>
-              </div>
-              <div class="skillCard" data-emoji="☕">
-                <div class="skillTopRow"><div class="skillName">Java</div><div class="skillPill">Languages</div></div>
-                <div class="stars" style="--rating:4.5;"></div>
-              </div>
-              <div class="skillCard" data-emoji="🧾">
-                <div class="skillTopRow"><div class="skillName">SQL</div><div class="skillPill">Languages</div></div>
-                <div class="stars" style="--rating:5;"></div>
-              </div>
-              <div class="skillCard" data-emoji="📦">
-                <div class="skillTopRow"><div class="skillName">R</div><div class="skillPill">Languages</div></div>
-                <div class="stars" style="--rating:4.5;"></div>
-              </div>
-              <div class="skillCard" data-emoji="🧠">
-                <div class="skillTopRow"><div class="skillName">DAX</div><div class="skillPill">Languages</div></div>
-                <div class="stars" style="--rating:4;"></div>
-              </div>
-              <div class="skillCard" data-emoji="🟨">
-                <div class="skillTopRow"><div class="skillName">JavaScript</div><div class="skillPill">Languages</div></div>
-                <div class="stars" style="--rating:4.5;"></div>
-              </div>
-              <div class="skillCard" data-emoji="🔷">
-                <div class="skillTopRow"><div class="skillName">TypeScript</div><div class="skillPill">Languages</div></div>
-                <div class="stars" style="--rating:4;"></div>
-              </div>
-              <div class="skillCard" data-emoji="💻">
-                <div class="skillTopRow"><div class="skillName">C</div><div class="skillPill">Languages</div></div>
-                <div class="stars" style="--rating:4;"></div>
-              </div>
-              <div class="skillCard" data-emoji="🧱">
-                <div class="skillTopRow"><div class="skillName">C++</div><div class="skillPill">Languages</div></div>
-                <div class="stars" style="--rating:4.5;"></div>
-              </div>
-            </div>
+      <!-- ===================== LANGUAGES ===================== -->
+      <div class="skillsPanel panel-lang">
+        <div class="skillsGrid">
+
+          <div class="skillCard" data-emoji="🐍">
+            <div class="skillTopRow"><div class="skillName">Python</div><div class="skillPill">Languages</div></div>
+            <div class="stars" style="--rating:5;"></div>
           </div>
 
-          <!-- DATABASES -->
-          <div class="skillsPanel panel-db">
-            <div class="skillsGrid">
-              <div class="skillCard" data-emoji="🐬">
-                <div class="skillTopRow"><div class="skillName">MySQL</div><div class="skillPill">Databases</div></div>
-                <div class="stars" style="--rating:4.5;"></div>
-              </div>
-              <div class="skillCard" data-emoji="🐘">
-                <div class="skillTopRow"><div class="skillName">PostgreSQL</div><div class="skillPill">Databases</div></div>
-                <div class="stars" style="--rating:4.5;"></div>
-              </div>
-              <div class="skillCard" data-emoji="🍃">
-                <div class="skillTopRow"><div class="skillName">MongoDB</div><div class="skillPill">Databases</div></div>
-                <div class="stars" style="--rating:5;"></div>
-              </div>
-              <div class="skillCard" data-emoji="🟫">
-                <div class="skillTopRow"><div class="skillName">Oracle</div><div class="skillPill">Databases</div></div>
-                <div class="stars" style="--rating:4;"></div>
-              </div>
-              <div class="skillCard" data-emoji="🔥">
-                <div class="skillTopRow"><div class="skillName">Firebase</div><div class="skillPill">Databases</div></div>
-                <div class="stars" style="--rating:4;"></div>
-              </div>
-            </div>
+          <div class="skillCard" data-emoji="☕">
+            <div class="skillTopRow"><div class="skillName">Java</div><div class="skillPill">Languages</div></div>
+            <div class="stars" style="--rating:4.5;"></div>
           </div>
 
-          <!-- FRAMEWORKS/LIBS -->
-          <div class="skillsPanel panel-fw">
-            <div class="skillsGrid">
-              <div class="skillCard" data-emoji="🌶️"><div class="skillTopRow"><div class="skillName">Flask</div><div class="skillPill">Frameworks</div></div><div class="stars" style="--rating:4.5;"></div></div>
-              <div class="skillCard" data-emoji="⚛️"><div class="skillTopRow"><div class="skillName">React</div><div class="skillPill">Frameworks</div></div><div class="stars" style="--rating:4.5;"></div></div>
-              <div class="skillCard" data-emoji="🟩"><div class="skillTopRow"><div class="skillName">Node.js</div><div class="skillPill">Frameworks</div></div><div class="stars" style="--rating:4.5;"></div></div>
-              <div class="skillCard" data-emoji="🧱"><div class="skillTopRow"><div class="skillName">NestJS</div><div class="skillPill">Frameworks</div></div><div class="stars" style="--rating:4;"></div></div>
-              <div class="skillCard" data-emoji="🎀"><div class="skillTopRow"><div class="skillName">Bootstrap</div><div class="skillPill">Frameworks</div></div><div class="stars" style="--rating:4;"></div></div>
-              <div class="skillCard" data-emoji="🦋"><div class="skillTopRow"><div class="skillName">Flutter</div><div class="skillPill">Frameworks</div></div><div class="stars" style="--rating:4;"></div></div>
-              <div class="skillCard" data-emoji="🧬"><div class="skillTopRow"><div class="skillName">TensorFlow </div><div class="skillPill">ML</div></div><div class="stars" style="--rating:4;"></div></div>
-              <div class="skillCard" data-emoji="🔥"><div class="skillTopRow"><div class="skillName">PyTorch</div><div class="skillPill">ML</div></div><div class="stars" style="--rating:4;"></div></div>
-            </div>
+          <div class="skillCard" data-emoji="🧾">
+            <div class="skillTopRow"><div class="skillName">SQL</div><div class="skillPill">Languages</div></div>
+            <div class="stars" style="--rating:5;"></div>
           </div>
 
-          <!-- TOOLS + DOMAINS -->
-          <div class="skillsPanel panel-tools">
-            <div class="skillsGrid">
-              <div class="skillCard" data-emoji="📊"><div class="skillTopRow"><div class="skillName">Power BI</div><div class="skillPill">Tools</div></div><div class="stars" style="--rating:5;"></div></div>
-              <div class="skillCard" data-emoji="📈"><div class="skillTopRow"><div class="skillName">Tableau</div><div class="skillPill">Tools</div></div><div class="stars" style="--rating:4.5;"></div></div>
-              <div class="skillCard" data-emoji="🧾"><div class="skillTopRow"><div class="skillName">Microsoft Excel</div><div class="skillPill">Tools</div></div><div class="stars" style="--rating:5;"></div></div>
-              <div class="skillCard" data-emoji="🧩"><div class="skillTopRow"><div class="skillName">Alteryx</div><div class="skillPill">Tools</div></div><div class="stars" style="--rating:4.5;"></div></div>
-              <div class="skillCard" data-emoji="🛠️"><div class="skillTopRow"><div class="skillName">Data Engineering (ETL)</div><div class="skillPill">Domain</div></div><div class="stars" style="--rating:4.5;"></div></div>
-              <div class="skillCard" data-emoji="🗣️"><div class="skillTopRow"><div class="skillName">NLP</div><div class="skillPill">Domain</div></div><div class="stars" style="--rating:4.5;"></div></div>
-              <div class="skillCard" data-emoji="🧮"><div class="skillTopRow"><div class="skillName">Data & Business Analysis</div><div class="skillPill">Domain</div></div><div class="stars" style="--rating:5;"></div></div>
-            </div>
+          <div class="skillCard" data-emoji="📦">
+            <div class="skillTopRow"><div class="skillName">R</div><div class="skillPill">Languages</div></div>
+            <div class="stars" style="--rating:4.5;"></div>
+          </div>
+
+          <div class="skillCard" data-emoji="🧠">
+            <div class="skillTopRow"><div class="skillName">DAX</div><div class="skillPill">Languages</div></div>
+            <div class="stars" style="--rating:4;"></div>
+          </div>
+
+          <div class="skillCard" data-emoji="🟨">
+            <div class="skillTopRow"><div class="skillName">JavaScript</div><div class="skillPill">Languages</div></div>
+            <div class="stars" style="--rating:4.5;"></div>
+          </div>
+
+          <div class="skillCard" data-emoji="🔷">
+            <div class="skillTopRow"><div class="skillName">TypeScript</div><div class="skillPill">Languages</div></div>
+            <div class="stars" style="--rating:4;"></div>
+          </div>
+
+          <div class="skillCard" data-emoji="💻">
+            <div class="skillTopRow"><div class="skillName">C</div><div class="skillPill">Languages</div></div>
+            <div class="stars" style="--rating:4;"></div>
+          </div>
+
+          <div class="skillCard" data-emoji="🧱">
+            <div class="skillTopRow"><div class="skillName">C++</div><div class="skillPill">Languages</div></div>
+            <div class="stars" style="--rating:4.5;"></div>
           </div>
 
         </div>
-      </article>
-    </section>
+      </div>
+
+
+      <!-- ===================== DATABASES ===================== -->
+      <div class="skillsPanel panel-db">
+        <div class="skillsGrid">
+
+          <div class="skillCard" data-emoji="🐬">
+            <div class="skillTopRow"><div class="skillName">MySQL</div><div class="skillPill">Databases</div></div>
+            <div class="stars" style="--rating:4.5;"></div>
+          </div>
+
+          <div class="skillCard" data-emoji="🐘">
+            <div class="skillTopRow"><div class="skillName">PostgreSQL</div><div class="skillPill">Databases</div></div>
+            <div class="stars" style="--rating:4.5;"></div>
+          </div>
+
+          <div class="skillCard" data-emoji="🍃">
+            <div class="skillTopRow"><div class="skillName">MongoDB</div><div class="skillPill">Databases</div></div>
+            <div class="stars" style="--rating:5;"></div>
+          </div>
+
+          <div class="skillCard" data-emoji="🟫">
+            <div class="skillTopRow"><div class="skillName">Oracle</div><div class="skillPill">Databases</div></div>
+            <div class="stars" style="--rating:4;"></div>
+          </div>
+
+          <div class="skillCard" data-emoji="🔥">
+            <div class="skillTopRow"><div class="skillName">Firebase</div><div class="skillPill">Databases</div></div>
+            <div class="stars" style="--rating:4;"></div>
+          </div>
+
+          <div class="skillCard" data-emoji="🧠">
+            <div class="skillTopRow"><div class="skillName">ChromaDB</div><div class="skillPill">Vector DB</div></div>
+            <div class="stars" style="--rating:4;"></div>
+          </div>
+
+        </div>
+      </div>
+
+
+      <!-- ===================== FRAMEWORKS / LIBRARIES ===================== -->
+      <div class="skillsPanel panel-fw">
+        <div class="skillsGrid">
+
+          <div class="skillCard" data-emoji="🌶️"><div class="skillTopRow"><div class="skillName">Flask</div><div class="skillPill">Frameworks</div></div><div class="stars" style="--rating:4.5;"></div></div>
+
+          <div class="skillCard" data-emoji="⚛️"><div class="skillTopRow"><div class="skillName">React</div><div class="skillPill">Frameworks</div></div><div class="stars" style="--rating:4.5;"></div></div>
+
+          <div class="skillCard" data-emoji="🟩"><div class="skillTopRow"><div class="skillName">Node.js</div><div class="skillPill">Frameworks</div></div><div class="stars" style="--rating:4.5;"></div></div>
+
+          <div class="skillCard" data-emoji="🧱"><div class="skillTopRow"><div class="skillName">NestJS</div><div class="skillPill">Frameworks</div></div><div class="stars" style="--rating:4;"></div></div>
+
+          <div class="skillCard" data-emoji="🎀"><div class="skillTopRow"><div class="skillName">Bootstrap</div><div class="skillPill">Frameworks</div></div><div class="stars" style="--rating:4;"></div></div>
+
+          <div class="skillCard" data-emoji="🦋"><div class="skillTopRow"><div class="skillName">Flutter</div><div class="skillPill">Frameworks</div></div><div class="stars" style="--rating:4;"></div></div>
+
+          <div class="skillCard" data-emoji="🧬"><div class="skillTopRow"><div class="skillName">TensorFlow</div><div class="skillPill">ML</div></div><div class="stars" style="--rating:4;"></div></div>
+
+          <div class="skillCard" data-emoji="🔥"><div class="skillTopRow"><div class="skillName">PyTorch</div><div class="skillPill">ML</div></div><div class="stars" style="--rating:4;"></div></div>
+
+          <div class="skillCard" data-emoji="🤖"><div class="skillTopRow"><div class="skillName">scikit-learn</div><div class="skillPill">ML</div></div><div class="stars" style="--rating:5;"></div></div>
+
+          <div class="skillCard" data-emoji="🐼"><div class="skillTopRow"><div class="skillName">Pandas</div><div class="skillPill">Data</div></div><div class="stars" style="--rating:5;"></div></div>
+
+          <div class="skillCard" data-emoji="🔢"><div class="skillTopRow"><div class="skillName">NumPy</div><div class="skillPill">Data</div></div><div class="stars" style="--rating:5;"></div></div>
+
+          <div class="skillCard" data-emoji="⚡"><div class="skillTopRow"><div class="skillName">FastAPI</div><div class="skillPill">API</div></div><div class="stars" style="--rating:4.5;"></div></div>
+
+        </div>
+      </div>
+
+
+      <!-- ===================== GENAI / AGENTS ===================== -->
+      <div class="skillsPanel panel-ai">
+        <div class="skillsGrid">
+
+          <div class="skillCard" data-emoji="✨"><div class="skillTopRow"><div class="skillName">Gemini Enterprise</div><div class="skillPill">GenAI</div></div><div class="stars" style="--rating:4.5;"></div></div>
+
+          <div class="skillCard" data-emoji="🔷"><div class="skillTopRow"><div class="skillName">Vertex AI</div><div class="skillPill">GenAI</div></div><div class="stars" style="--rating:4.5;"></div></div>
+
+          <div class="skillCard" data-emoji="🤖"><div class="skillTopRow"><div class="skillName">Agentic AI</div><div class="skillPill">Agents</div></div><div class="stars" style="--rating:4.5;"></div></div>
+
+          <div class="skillCard" data-emoji="📚"><div class="skillTopRow"><div class="skillName">RAG</div><div class="skillPill">GenAI</div></div><div class="stars" style="--rating:4.5;"></div></div>
+
+          <div class="skillCard" data-emoji="🦜"><div class="skillTopRow"><div class="skillName">LangChain</div><div class="skillPill">GenAI</div></div><div class="stars" style="--rating:4;"></div></div>
+
+          <div class="skillCard" data-emoji="💬"><div class="skillTopRow"><div class="skillName">Prompt Engineering</div><div class="skillPill">GenAI</div></div><div class="stars" style="--rating:5;"></div></div>
+
+          <div class="skillCard" data-emoji="🔎"><div class="skillTopRow"><div class="skillName">Enterprise Search</div><div class="skillPill">GenAI</div></div><div class="stars" style="--rating:4.5;"></div></div>
+
+          <div class="skillCard" data-emoji="🧩"><div class="skillTopRow"><div class="skillName">Agent Designer</div><div class="skillPill">Agents</div></div><div class="stars" style="--rating:4.5;"></div></div>
+
+          <div class="skillCard" data-emoji="⚙️"><div class="skillTopRow"><div class="skillName">LoRA / PEFT</div><div class="skillPill">Optimization</div></div><div class="stars" style="--rating:4;"></div></div>
+
+        </div>
+      </div>
+
+
+      <!-- ===================== CLOUD / MLOPS ===================== -->
+      <div class="skillsPanel panel-cloud">
+        <div class="skillsGrid">
+
+          <div class="skillCard" data-emoji="🐳"><div class="skillTopRow"><div class="skillName">Docker</div><div class="skillPill">MLOps</div></div><div class="stars" style="--rating:4.5;"></div></div>
+
+          <div class="skillCard" data-emoji="📈"><div class="skillTopRow"><div class="skillName">MLflow</div><div class="skillPill">MLOps</div></div><div class="stars" style="--rating:4;"></div></div>
+
+          <div class="skillCard" data-emoji="🔁"><div class="skillTopRow"><div class="skillName">CI/CD</div><div class="skillPill">DevOps</div></div><div class="stars" style="--rating:4.5;"></div></div>
+
+          <div class="skillCard" data-emoji="🔌"><div class="skillTopRow"><div class="skillName">REST API</div><div class="skillPill">Engineering</div></div><div class="stars" style="--rating:4.5;"></div></div>
+
+          <div class="skillCard" data-emoji="🌿"><div class="skillTopRow"><div class="skillName">Git</div><div class="skillPill">Engineering</div></div><div class="stars" style="--rating:5;"></div></div>
+
+          <div class="skillCard" data-emoji="🐧"><div class="skillTopRow"><div class="skillName">Linux</div><div class="skillPill">Engineering</div></div><div class="stars" style="--rating:4;"></div></div>
+
+          <div class="skillCard" data-emoji="☁️"><div class="skillTopRow"><div class="skillName">GCP</div><div class="skillPill">Cloud</div></div><div class="stars" style="--rating:4.5;"></div></div>
+
+          <div class="skillCard" data-emoji="🏢"><div class="skillTopRow"><div class="skillName">BigQuery</div><div class="skillPill">GCP</div></div><div class="stars" style="--rating:4.5;"></div></div>
+
+          <div class="skillCard" data-emoji="🚀"><div class="skillTopRow"><div class="skillName">Cloud Run</div><div class="skillPill">GCP</div></div><div class="stars" style="--rating:4.5;"></div></div>
+
+          <div class="skillCard" data-emoji="🔥"><div class="skillTopRow"><div class="skillName">Firestore</div><div class="skillPill">GCP</div></div><div class="stars" style="--rating:4;"></div></div>
+
+          <div class="skillCard" data-emoji="🌐"><div class="skillTopRow"><div class="skillName">AWS</div><div class="skillPill">Cloud</div></div><div class="stars" style="--rating:3.5;"></div></div>
+
+          <div class="skillCard" data-emoji="🔵"><div class="skillTopRow"><div class="skillName">Azure</div><div class="skillPill">Cloud</div></div><div class="stars" style="--rating:3.5;"></div></div>
+
+          <div class="skillCard" data-emoji="🧱"><div class="skillTopRow"><div class="skillName">Databricks</div><div class="skillPill">Data Cloud</div></div><div class="stars" style="--rating:4;"></div></div>
+
+        </div>
+      </div>
+
+
+      <!-- ===================== TOOLS + DOMAINS ===================== -->
+      <div class="skillsPanel panel-tools">
+        <div class="skillsGrid">
+
+          <div class="skillCard" data-emoji="📊"><div class="skillTopRow"><div class="skillName">Power BI</div><div class="skillPill">Tools</div></div><div class="stars" style="--rating:5;"></div></div>
+
+          <div class="skillCard" data-emoji="📈"><div class="skillTopRow"><div class="skillName">Tableau</div><div class="skillPill">Tools</div></div><div class="stars" style="--rating:4.5;"></div></div>
+
+          <div class="skillCard" data-emoji="🧾"><div class="skillTopRow"><div class="skillName">Microsoft Excel</div><div class="skillPill">Tools</div></div><div class="stars" style="--rating:5;"></div></div>
+
+          <div class="skillCard" data-emoji="🧩"><div class="skillTopRow"><div class="skillName">Alteryx</div><div class="skillPill">Tools</div></div><div class="stars" style="--rating:4.5;"></div></div>
+
+          <div class="skillCard" data-emoji="📓"><div class="skillTopRow"><div class="skillName">Jupyter</div><div class="skillPill">Tools</div></div><div class="stars" style="--rating:5;"></div></div>
+
+          <div class="skillCard" data-emoji="📮"><div class="skillTopRow"><div class="skillName">Postman</div><div class="skillPill">Tools</div></div><div class="stars" style="--rating:4.5;"></div></div>
+
+          <div class="skillCard" data-emoji="🎫"><div class="skillTopRow"><div class="skillName">Jira</div><div class="skillPill">Tools</div></div><div class="stars" style="--rating:4.5;"></div></div>
+
+          <div class="skillCard" data-emoji="⌨️"><div class="skillTopRow"><div class="skillName">Bash</div><div class="skillPill">Tools</div></div><div class="stars" style="--rating:4;"></div></div>
+
+          <div class="skillCard" data-emoji="🛠️"><div class="skillTopRow"><div class="skillName">Data Engineering (ETL)</div><div class="skillPill">Domain</div></div><div class="stars" style="--rating:4.5;"></div></div>
+
+          <div class="skillCard" data-emoji="🗣️"><div class="skillTopRow"><div class="skillName">NLP</div><div class="skillPill">Domain</div></div><div class="stars" style="--rating:4.5;"></div></div>
+
+          <div class="skillCard" data-emoji="🧮"><div class="skillTopRow"><div class="skillName">Data &amp; Business Analysis</div><div class="skillPill">Domain</div></div><div class="stars" style="--rating:5;"></div></div>
+
+          <div class="skillCard" data-emoji="📐"><div class="skillTopRow"><div class="skillName">Statistical Modelling</div><div class="skillPill">Domain</div></div><div class="stars" style="--rating:5;"></div></div>
+
+          <div class="skillCard" data-emoji="🔮"><div class="skillTopRow"><div class="skillName">Predictive Modelling</div><div class="skillPill">Domain</div></div><div class="stars" style="--rating:5;"></div></div>
+
+          <div class="skillCard" data-emoji="🚨"><div class="skillTopRow"><div class="skillName">Anomaly Detection</div><div class="skillPill">Domain</div></div><div class="stars" style="--rating:4.5;"></div></div>
+
+          <div class="skillCard" data-emoji="⚙️"><div class="skillTopRow"><div class="skillName">Process Optimization</div><div class="skillPill">Domain</div></div><div class="stars" style="--rating:4.5;"></div></div>
+
+        </div>
+      </div>
+
+    </div>
+  </article>
+</section>
 
 
     <!-- ===================== FUN ZONE ===================== -->
